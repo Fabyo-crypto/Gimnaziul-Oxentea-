@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+    <meta charset="UTF-8">
+    <title>Gimnaziul Oxentea</title>
+    <style>
+        html {
+            scroll-behavior: smooth;
+        }
+
+        body {
+            margin: 0;
+            font-family: 'Segoe UI', sans-serif;
+            background: url('school-background.jpg') no-repeat center center fixed;
+            background-size: cover;
+        }
+
+        header {
+            background-color: rgba(0,0,0,0.6);
+            color: white;
+            text-align: center;
+            padding: 60px 20px;
+            animation: fadeInDown 2s ease;
+        }
+
+        @keyframes fadeInDown {
+            from { opacity: 0; transform: translateY(-50px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        h1 {
+            font-size: 48px;
+            margin-bottom: 10px;
+        }
+
+        nav {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            background-color: rgba(255,255,255,0.9);
+            padding: 15px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: #2d3436;
+            font-weight: bold;
+            padding: 10px 20px;
+            border: 2px solid #0984e3;
+            border-radius: 8px;
+            transition: all 0.3s ease;
+        }
+
+        nav a:hover {
+            background-color: #74b9ff;
+            color: white;
+            transform: scale(1.05);
+        }
+
+        section {
+            padding: 40px;
+            margin: 20px auto;
+            max-width: 900px;
+            background-color: rgba(255,255,255,0.95);
+            border-radius: 12px;
+            box-shadow: 0 0 20px rgba(0,0,0,0.2);
+            animation: fadeInUp 2s ease;
+        }
+
+        @keyframes fadeInUp {
+            from { opacity: 0; transform: translateY(50px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        h2 {
+            color: #2d3436;
+            margin-bottom: 20px;
+        }
+
+        p, ul {
+            font-size: 18px;
+            color: #444;
+            line-height: 1.6;
+        }
+
+        footer {
+            background-color: rgba(0,0,0,0.6);
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Gimnaziul Oxentea</h1>
+        <p>Unde educația prinde viață 🌟</p>
+    </header>
+
+    <nav>
+        <a href="#ces">Elevi CES</a>
+        <a href="#orar">Orar</a>
+        <a href="#profesori">Profesori</a>
+        <a href="#contact">Contacte</a>
+    </nav>
+
+    <section id="ces">
+        <h2>🌈 Elevi cu CES / Dizabilități</h2>
+        <p>
+            Gimnaziul Oxentea promovează incluziunea și oferă sprijin personalizat elevilor cu cerințe educaționale speciale (CES) sau dizabilități. 
+            Cadrele didactice colaborează cu părinții și specialiștii pentru a asigura un mediu sigur, empatic și adaptat nevoilor fiecărui copil.
+        </p>
+    </section>
+
+    <section id="orar">
+        <h2>📅 Orarul claselor I–IX</h2>
+        <ul>
+            <li>Clasa I – Luni-Vineri: 08:30–12:10</li>
+            <li>Clasa II – Luni-Vineri: 08:30–13:05</li>
+            <li>Clasa III – Luni-Vineri: 08:30–13:05</li>
+            <li>Clasa IV – Luni-Vineri: 08:30–13:05</li>
+            <li>Clasa V – Luni-Vineri: 08:30–13:05</li>
+            <li>Clasa VI – Luni-Vineri: 08:30–13:55</li>
+            <li>Clasa VII – Luni-Vineri: 08:30–14:40</li>
+            <li>Clasa VIII – Luni-Vineri: 08:30–14:00</li>
+            <li>Clasa IX – Luni-Vineri: 08:30–14:40</li>
+        </ul>
+    </section>
+
+    <section id="profesori">
+        <h2>👩‍🏫 Cadre Didactice</h2>
+        <ul>
+            <li>Prof. Ion Popescu – Matematică</li>
+            <li>Prof. Maria Ionescu – Limba română</li>
+            <li>Prof. Elena Rusu – Fizică</li>
+            <li>Prof. Vlad Ciobanu – Istorie</li>
+            <li>Prof. Ana Dima – Biologie</li>
+            <li>Prof. Mihai Luca – Educație fizică</li>
+            <li>Prof. Natalia Sava – Muzică</li>
+            <li>Prof. Andrei Toma – TIC</li>
+            <!-- Poți modifica sau adăuga aici -->
+        </ul>
+    </section>
+
+    <section id="contact">
+        <h2>📞 Contacte Școală</h2>
+        <p>
+            Adresă: Str. Principală nr. 12, Oxentea, Moldova<br>
+            Telefon: +373 259 12345<br>
+            Email: gimnaziul.oxentea@edu.md<br>
+            Program secretariat: Luni–Vineri, 08:00–15:00
+        </p>
+    </section>
+
+    <footer>
+        &copy; 2010-2025 Gimnaziul Oxentea. Toate drepturile sunt rezervate.
+    </footer>
+
+</body>
+</html>
